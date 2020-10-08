@@ -37,10 +37,10 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Join our team",
-  headline: "Creating n account is extremely easy",
+  headline: "Creating an account is extremely easy",
   description:
     "Get everything set up and ready under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: "learn more",
+  buttonLabel: "start now",
   imgStart: false,
   img: require("../../images/svg3.svg"),
   alt: "data",

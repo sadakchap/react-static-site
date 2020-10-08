@@ -1,8 +1,13 @@
 import React from 'react';
 import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, SocialIconLink, SocialIcons, WebsiteRights } from './FooterElements';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
+import { animateScroll } from 'react-scroll';
 
 const Footer = () => {
+  const toggleHome = () => {
+    animateScroll.scrollToTop();
+  };
+
     return (
       <FooterContainer>
         <FooterWrap>
@@ -49,7 +54,7 @@ const Footer = () => {
 
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to="/">dolla</SocialLogo>
+                    <SocialLogo to="/" onClick={toggleHome}>dolla</SocialLogo>
                     <WebsiteRights>dolla <span>&copy;</span> { new Date().getFullYear() } All rights reversed</WebsiteRights>
                     
                     <SocialIcons>
