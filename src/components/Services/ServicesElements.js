@@ -75,9 +75,11 @@ export const ServicesIcon = styled.img`
 export const ServicesH2 = styled.h2`
     font-size: 1rem;
     margin-bottom: 10px;
+    color: #000;
 `;
 
 export const ServicesP = styled.p`
-    font-size: 1rem;
-    text-align: center;
+  font-size: 1rem;
+  text-align: center;
+  color: #000;
 `;
