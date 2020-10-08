@@ -15,6 +15,7 @@ export const Button = styled(LinkS)`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
+  text-transform: capitalize;
 
   &:hover {
     background: ${({ primary }) => (primary ? "#fff" : "#01bf71")};
